@@ -33,7 +33,10 @@
       "minUI5Version": "1.60.0",
       "libs": {
         "sap.m": {},
-        "sap.ui.core": {}
+        "sap.ui.core": {},
+        "it.fiorital.fioritalui5lib": {
+					"minVersion": "Active"
+				}
       }
     },
     "contentDensities": {

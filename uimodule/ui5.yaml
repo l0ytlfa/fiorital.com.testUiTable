@@ -21,3 +21,8 @@ server:
       configuration:
         port: 35729
         path: uimodule/webapp
+    - name: ui5-middleware-servestatic
+      afterMiddleware: compression
+      mountPath: /resources/it/fiorital/fioritalui5lib
+      configuration:
+        rootPath: "/Users/lucafarina/Documents/Fiorital/ui5project/download/fioritalui5lib/src/it/fiorital/fioritalui5lib"     

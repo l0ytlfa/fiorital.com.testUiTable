@@ -1,1 +1,18 @@
 /* Enter your custom styles here */
+
+.noBorder {
+    border: 0px !important;
+}
+
+.ztopper {
+    height: 100%;
+    padding: 0px !important;
+}
+
+.ztopper > * {
+    z-index: 4000;
+}
+
+td[cellcolor="red"]{
+    background-color: red;
+}
